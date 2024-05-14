@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>GeekyAnts-ToDo's</title>
+</head>
+<body>
+    <div class="container">
+        <div class="todo">
+            <p class="title">ToDo List</p>
+            <img class="todoImg" src="https://w7.pngwing.com/pngs/527/527/png-transparent-checklist-illustration-computer-icons-checklist-shopping-list-checklist-miscellaneous-angle-text.png" alt="">
+        </div>
+        <div class="inputContainer">
+            <img class="menuBar" src="https://cdn-icons-png.flaticon.com/512/5036/5036960.png" alt="">
+            <input type="text" placeholder="Add a new task" id="input">
+            <button id="addTodo" class="addList">ADD</button>
+        </div>
+        <span id="added">Added Successfully!</span>
+        <span id="removed">Removed Successfully!</span>
+        <div class="status">
+            <div class="filters">
+                <p id="all">All</p>
+                <p id="pending">Pending</p>
+                <p id="completed">Completed</p>
+            </div>
+            <button class="clearBtn" id="clearAll">Clear All</button>
+        </div>
+        <ul class="tasks">
+        </ul>
+    </div> 
+    
+    <script src="script.js"></script>
+</body>
+</html>
